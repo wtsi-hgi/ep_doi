@@ -1,17 +1,20 @@
 {
   "name": "ep_doi",
-  "description": "Adds links to doi ids.",
-  "version": "0.0.1",
-  "private": true,
+  "description": "Adds support to linkify doi: identifiers in etherpad lite.",
+  "homepage": "https://github.com/wtsi-hgi/ep_doi",
+  "version": "0.0.2",
   "dependencies": {},
   "engines": {
     "node": "*"
   },
-  "main": "index.js",
+  "main": "static/js/doi.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
-  "author": "",
-  "license": "BSD"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wtsi-hgi/ep_doi.git"
+  },
+  "author": "Joshua C. Randall <jcrandall@alum.mit.edu>",
+  "license": "GPLv3"
 }
