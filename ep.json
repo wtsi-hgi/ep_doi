@@ -1,0 +1,15 @@
+{
+  "parts": [
+    {
+      "name": "ep_doi",
+      "hooks": {
+        "aceGetFilterStack": "ep_doi/static/js/doi:aceGetFilterStack",
+        "aceCreateDomLine": "ep_doi/static/js/doi:aceCreateDomLine"
+      },
+      "client_hooks": {
+        "aceGetFilterStack": "ep_doi/static/js/doi:aceGetFilterStack",
+        "aceCreateDomLine": "ep_doi/static/js/doi:aceCreateDomLine"
+      }
+    }
+  ]
+}
